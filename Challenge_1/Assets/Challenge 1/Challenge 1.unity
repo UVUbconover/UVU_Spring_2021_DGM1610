@@ -585,6 +585,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 825415029}
   offset: {x: 21, y: 1, z: 3}
+--- !u!1 &581593981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374,
+    type: 3}
+  m_PrefabInstance: {fileID: 1239094319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &581593985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581593981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968070ba7512b10438320697e1824a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
 --- !u!1 &673814960
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,8 +856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99388a66a4ac2514d939f2abc54dc30f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  turnSpeed: 45
+  speed: 18
+  turnSpeed: 90
   vInput: 0
 --- !u!1 &899755176
 GameObject:

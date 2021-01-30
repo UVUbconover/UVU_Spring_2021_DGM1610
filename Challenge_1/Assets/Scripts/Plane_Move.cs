@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Plane_Move : MonoBehaviour
 {
-    public float speed = 10.0f;
-    public float turnSpeed = 45.0f;
+    public float speed = 18.0f;
+    public float turnSpeed = 90.0f;
     public float vInput;
     
    
