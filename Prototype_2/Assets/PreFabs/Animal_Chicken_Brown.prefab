@@ -1150,6 +1150,7 @@ GameObject:
   - component: {fileID: 5656190203986304850}
   - component: {fileID: 5656190203986304879}
   - component: {fileID: 5656190203986304876}
+  - component: {fileID: 4142169562641538867}
   m_Layer: 0
   m_Name: Animal_Chicken_Brown
   m_TagString: Untagged
@@ -1222,7 +1223,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5656190203238454468}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10, y: 18, z: 22}
@@ -1254,6 +1255,19 @@ MonoBehaviour:
   projectilePrefab: {fileID: 0}
   topBound: 35
   lowerBound: -10
+--- !u!65 &4142169562641538867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5656190203238454468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 18, z: 22}
+  m_Center: {x: 0, y: 9, z: 0}
 --- !u!1 &5656190203238458318
 GameObject:
   m_ObjectHideFlags: 0

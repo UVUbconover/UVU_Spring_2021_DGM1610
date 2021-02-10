@@ -1917,6 +1917,7 @@ GameObject:
   - component: {fileID: 4255181834925528245}
   - component: {fileID: 4255181834925528250}
   - component: {fileID: 4255181834925528251}
+  - component: {fileID: 1396426921954838643}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1982,7 +1983,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4255181833046850958}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 15, y: 34, z: 51}
@@ -2014,3 +2015,16 @@ MonoBehaviour:
   projectilePrefab: {fileID: 0}
   topBound: 35
   lowerBound: -10
+--- !u!65 &1396426921954838643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4255181833046850958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 34, z: 51}
+  m_Center: {x: 0, y: 17, z: 0}

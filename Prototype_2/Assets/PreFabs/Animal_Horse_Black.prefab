@@ -942,6 +942,7 @@ GameObject:
   - component: {fileID: 5079716951098256266}
   - component: {fileID: 5079716951098256271}
   - component: {fileID: 5079716951098256264}
+  - component: {fileID: 5501716185647209211}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1012,7 +1013,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5079716951708466327}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 11, y: 38, z: 55}
@@ -1044,6 +1045,19 @@ MonoBehaviour:
   projectilePrefab: {fileID: 0}
   topBound: 35
   lowerBound: -10
+--- !u!65 &5501716185647209211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079716951708466327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11, y: 38, z: 55}
+  m_Center: {x: 0, y: 19, z: 0}
 --- !u!1 &5079716951708466529
 GameObject:
   m_ObjectHideFlags: 0
