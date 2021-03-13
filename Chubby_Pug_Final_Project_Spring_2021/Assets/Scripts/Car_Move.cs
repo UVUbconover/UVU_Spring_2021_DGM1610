@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera_Follow_Plane : MonoBehaviour
+public class Car_Move : MonoBehaviour
 {
-    public GameObject mainCamera;
-    public Vector3 offset = new Vector3(21, -3.47f, 10);
+    public float carSpeed = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +14,6 @@ public class Camera_Follow_Plane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = mainCamera.transform.position + offset;
+        transform.Translate(Vector3.left * Time.deltaTime * carSpeed); 
     }
 }

@@ -23,12 +23,13 @@ public class Player_Controller : MonoBehaviour
         //Jump command
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if(transform.position.y <= -0.25f)
+            if(transform.position.y <= 1f)
             {
                 GetComponent<Rigidbody2D>().AddForce(Vector2.up * 325);
             }   
         }
 
+    
     }
 
 }
