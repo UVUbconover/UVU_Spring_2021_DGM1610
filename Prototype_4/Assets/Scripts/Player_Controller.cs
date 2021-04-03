@@ -26,7 +26,7 @@ public class Player_Controller : MonoBehaviour
     {
         float forwardInput = Input.GetAxis("Vertical");
         playerRb.AddForce(focalPoint.transform.forward * speed * Time.deltaTime);
-        powerupIndicator.transform.position = transform.position + new Vector3 (0, 0.5f, 0);
+        powerupIndicator.transform.position = transform.position + new Vector3 (0, -0.5f, 0);
     }
 
     // This block of code allows player to pick up power ups. The power ups are removed from game.
